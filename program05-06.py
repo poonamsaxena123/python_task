@@ -1,3 +1,5 @@
+#05/06/2024
+# for making upload o git
 s1={3,4,5,6,7}
 print(s1)
 s={10,"aa"}
