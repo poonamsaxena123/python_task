@@ -60,7 +60,7 @@ l2=[outer for s_list in li for outer in s_list]
 print(l2)
 
 
-
+#
 # list of prime numer 1 to 100
 # List of prime numbers from 1 to 100
 primes = [num for num in range(2, 101) if all(num % j != 0 for j in range(2, num))]
