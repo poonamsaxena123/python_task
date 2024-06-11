@@ -46,6 +46,8 @@ print(common)
 
 # 7 list of tuple
 
+
+
 print([(i ,i**2) for i in range(1,11) ])
 
 # 8 list of stinr length max 3
@@ -60,7 +62,7 @@ l2=[outer for s_list in li for outer in s_list]
 print(l2)
 
 
-#
+#3
 # list of prime numer 1 to 100
 # List of prime numbers from 1 to 100
 primes = [num for num in range(2, 101) if all(num % j != 0 for j in range(2, num))]
