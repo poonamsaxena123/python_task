@@ -4,7 +4,7 @@ print(newli)
 
 
 num=[3,4,5,6,1,10]
-nli=list(filter(lambda x : x%2==0,num))
+nli=list(filter(lambda x: x%2==0,num))
 print(nli)
 
 people=[
@@ -19,3 +19,17 @@ objects = [0, 1, [], 4, 5, "", None, 8]
 
 print(list(filter(None, objects)))
 [1, 4, 5, 8]
+
+
+
+ages = [5, 12, 17, 18, 24, 32]
+
+def myFunc(x):
+  if x < 18:
+    return False
+  else:
+    return True
+
+adults = filter(myFunc, ages)
+for i in adults:
+   print(i)

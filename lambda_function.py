@@ -34,5 +34,7 @@ print(squre)
 
 lst_check = ['word', 'test', 'window', 'example']
 
+# next func
 
-
+add  = lambda a : a + 10
+print(add(5))
